@@ -15,7 +15,7 @@ public class MemberServiceImpl implements MemberService {
     /*@Autowired
     @Qualifier("userDao")*/
     @Resource(name="memberDao")
-    public void setUserDao(MemberDao memberDao) {
+    public void setMemberDao(MemberDao memberDao) {
         this.memberDao = memberDao;
     }
 
